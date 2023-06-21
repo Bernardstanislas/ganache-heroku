@@ -1,0 +1,12 @@
+{
+  "name": "ganache-heroku",
+  "version": "1.0.0",
+  "description": "Ganache CLI deployment on Heroku",
+  "scripts": {
+    "ganache": "ganache --wallet.seed yolo",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ganache": "^7.8.0"
+  }
+}
